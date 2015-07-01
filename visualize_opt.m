@@ -12,6 +12,7 @@ function visualize_opt( sae, layer, lambda, lag, iter, mask, channels )
 % lag: lagrange multiplier
 % iter: number of iterations
 % mask: list of hidden units you want to visualize. leave empty array for all
+% channels: number of channels in input e.g. 3 for RGB (designed for CIFAR dataset)
 
 
 %note: each hidden unit should be optimized separately (count)
