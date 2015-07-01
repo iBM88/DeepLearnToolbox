@@ -2,7 +2,7 @@
 % based on paper: [Visualizing Higher-Layer Features of a Deep Network]
 % 7/1/2015
 
-function visualize_opt( sae, layer, lambda, lag, iter, mask, channels )
+function out = visualize_opt( sae, layer, lambda, lag, iter, mask, channels )
 %This function visualizes the activation of hidden units in a higher layer
 %of the autoencoder by maximizing the activation function
 
